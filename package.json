@@ -1,0 +1,69 @@
+{
+  "name": "providentnulla",
+  "version": "1.0.0",
+  "description": "Salesforce.com SOQL parser and composer",
+  "main": "dist/index.js",
+  "module": "dist_esm/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "JaquanFunk",
+  "license": "MIT",
+  "bin": {
+    "soql-parser-js": "bin/soql-parser-js"
+  },
+  "files": [
+    "dist/src/**/*.js",
+    "dist/src/**/*.js.map",
+    "dist/src/**/*.d.ts",
+    "dist/index.js",
+    "dist/index.min.js",
+    "dist/main.licenses.txt",
+    "dist_esm/**/*.js",
+    "dist/src/**/*.js.map",
+    "dist_cli/**/*.js",
+    "bin/**/*.js",
+    "README.md",
+    "LICENSE.txt",
+    "CHANGELOG.md"
+  ],
+  "dependencies": {
+    "chevrotain": "^9.0.1",
+    "commander": "^2.20.3",
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.3",
+    "@types/fs-extra": "^8.0.0",
+    "@types/lodash.get": "^4.4.6",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^12.7.5",
+    "chai": "^4.1.2",
+    "chalk": "^2.4.2",
+    "fs-extra": "^8.1.0",
+    "jsonfile": "^5.0.0",
+    "license-webpack-plugin": "^2.1.2",
+    "mocha": "^7.1.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "release-it": "^14.5.0",
+    "string-replace-loader": "^2.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^4.2.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "keywords": [
+    "doloremque",
+    "salesforce",
+    "parse",
+    "voluptas",
+    "ut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MacieNienow/providentnulla.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MacieNienow/providentnulla.git/issues"
+  },
+  "homepage": "https://github.com/MacieNienow/providentnulla.git"
+}
